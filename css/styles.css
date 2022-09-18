@@ -1,0 +1,220 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+
+}
+/* Containers */
+
+.container-fluid {
+ padding: 7% 15%
+    
+    
+}
+
+/* SECTIONS */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: white;
+
+}
+
+.white-section {
+    background-color: white;
+
+}
+
+
+
+
+h1, h2, h2, h3, h3, h4, h5, h6 {
+    font-family: "Montserrat-Black";
+}
+
+.section-heading {
+font-size: 3rem;
+line-height: 1.5;
+}
+
+
+p {
+color: grey;
+
+}
+
+/*HEADING */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem; 
+    line-height: 1.5;
+
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+
+    padding: 0 0 4.5rem; /*  0 za top, 0 za lijevo i desno i 4.5rem za bottom */
+
+}
+
+.nav-item {
+padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem; 
+    font-family: Montserrat-light;
+}
+
+
+.navbar-brand {     /* uzeli smo iz navbar class */
+font-family: "Ubunt"; /* Font rijeci */
+font-size: 2.5rem;   /* Velicina naslova ili rijeci */
+font-weight: bold ; /* Povecanje Fonta slova */
+
+}
+
+
+/* bottom */ /* Unijeli smo u title kod button komande download-button da bi napravili razmak izmedju ta dva dugmeta */
+
+.download-button {
+margin: 5% 3% 5% 0%    /* 5% za top , 3% za desno, 5% za lijevo i 0% za dole */
+}
+
+
+#title .container-fluid {     /* Ovo unosimo kada zelimo da taj contaiuner-fluid ima prednost za razliku od proskog */
+    padding:3% 15% 7%;
+    text-align: left;
+
+}
+
+.title-image {
+width: 20%;
+transform: rotate(25deg);
+position:absolute;
+right: 24%;
+
+
+
+}
+
+
+/*-----Features----*/
+
+#features {
+position: relative;
+
+}
+
+.feature-title {
+font-size: 1.5rem;
+
+}
+
+.box1, .box2, .box3 {
+padding: 5%;
+
+}
+
+.icon {
+color: #ef8172;
+margin-bottom: 1rem ;
+
+}
+
+.icon:hover {
+ color: #ff4c68
+
+}
+
+/* Testimonial Section*/
+
+#testimonials {
+background-color: #ef8172;
+color: #ffff
+}
+
+.testimonial-text {
+font-size: 3rem;
+line-height: 1.5;
+
+}
+
+
+.testimonial-img {
+width: 10%;
+border-radius: 100%;
+margin: 10px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+
+}
+
+.pres-logo {
+   width: 15%;
+   margin: 20px 20px 50px;
+}
+
+/* CARDS- PRICING */
+
+#pricing {
+padding: 100px;
+
+}
+
+.pricing-text {
+font-size: 3rem;
+line-height: 1.5;
+
+}
+
+.card-header {
+ background-color: grey;
+
+}
+
+.card-header:hover {
+    color:#ef8172
+}
+
+
+.pricing-column {
+padding:3% 2% ; /* 3% for top and bottom and 2% for left and right! */
+
+
+}
+
+@media (max-width:993px) {
+
+
+.title-image {
+
+    position:static;
+    transform: rotate(0); /* transform:rotate (0) sluzi da se slika pozicionira vertikalno kada width dosegne manje od 993px */
+}
+
+}
+
+
+/* footer */
+
+
+#footer {
+background-color: #fff;
+
+
+}
+
+.social-icon {
+margin:10px 15px;
+
+
+}
